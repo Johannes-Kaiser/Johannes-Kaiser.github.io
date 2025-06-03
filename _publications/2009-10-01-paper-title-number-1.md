@@ -1,7 +1,7 @@
 ---
 title: "Differential privacy in medical imaging applications"
 collection: publications
-permalink: "https://www.sciencedirect.com/science/article/abs/pii/B9780443237614000328"
+permalink: "/publication/DPMed"
 excerpt: 'This work outlines the application of differential privacy in the medical domain describing opportunities and pitfalls.'
 venue: 'Trustworthy AI in Medical Imaging. Academic Press'
 date: 2025-01-01

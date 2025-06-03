@@ -25,19 +25,26 @@ layout: default
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+      <header>
+        {% if page.title %}
+          <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
         {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+        {% if page.image and page.pdf %}
+          <a href="{{ page.pdf }}" download>
+            <img src="{{ page.image }}" alt="Slides/Poster for {{ page.title }}" style="max-width:250px;max-height:250px;border-radius:8px;margin-bottom:1em;">
+          </a>
+          <div><a href="{{ page.pdf }}" download class="btn">Download Slides/Poster (PDF)</a></div>
+        {% endif %}
+        {% if page.abstract %}
+          <div class="talk-abstract" style="margin-top:1em;">
+            <strong>Abstract:</strong>
+            <p>{{ page.abstract }}</p>
+          </div>
+        {% endif %}
+      </header>
 
-        </header>
+      {% if page.venue or page.location or page.date %}
+        <div class="page__meta
       {% endunless %}
 
       <section class="page__content" itemprop="text">

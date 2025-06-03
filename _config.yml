@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Johannes Kaiser"
-  avatar           : "_data\Profile.jpg"
+  avatar           : "Profile"
   bio              : ""
   location         : "Munich, Germany"
   employer         :

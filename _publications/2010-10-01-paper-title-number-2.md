@@ -1,15 +1,30 @@
 ---
-title: "Paper Title Number 4"
+title: "Laplace Sample Information: Data Informativeness Through a Bayesian Lens"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/LSI
+excerpt: 'This paper introduces LSI a novel measure of data informativeness founded in information theory.'
+date: 2025-05-02
+venue: 'ICLR'
+paperurl: 'https://arxiv.org/pdf/2505.15303?'
+citation: 'Kaiser, J., Schwethelm, K., Rueckert, D., & Kaissis, G. Laplace Sample Information: Data Informativeness Through a Bayesian Lens. In The Thirteenth International Conference on Learning Representations.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+Accurately estimating the informativeness of individual samples in a dataset is
+an important objective in deep learning, as it can guide sample selection, which
+can improve model efficiency and accuracy by removing redundant or potentially
+harmful samples. We propose Laplace Sample Information (LSI) measure of sample
+informativeness grounded in information theory widely applicable across model
+architectures and learning settings. LSI leverages a Bayesian approximation to the
+weight posterior and the KL divergence to measure the change in the parameter
+distribution induced by a sample of interest from the dataset. We experimentally
+show that LSI is effective in ordering the data with respect to typicality, detecting
+mislabeled samples, measuring class-wise informativeness, and assessing dataset
+difficulty. We demonstrate these capabilities of LSI on image and text data in
+supervised and unsupervised settings. Moreover, we show that LSI can be computed
+efficiently through probes and transfers well to the training of large models
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Download paper here](https://arxiv.org/pdf/2505.15303?)
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+Recommended citation: 
+Kaiser, J., Schwethelm, K., Rueckert, D., & Kaissis, G. 
+Laplace Sample Information: Data Informativeness Through a Bayesian Lens. 
+In The Thirteenth International Conference on Learning Representations.

@@ -6,7 +6,10 @@ excerpt: 'This work outlines the application of differential privacy in the medi
 venue: 'Trustworthy AI in Medical Imaging. Academic Press'
 date: 2025-01-01
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/B9780443237614000328'
-citation: '\n Kaiser, Johannes, Tamara Mueller, and Georgios Kaissis. "Differential privacy in medical imaging applications." Trustworthy AI in Medical Imaging. Academic Press, 2025. 411-424.'
+citation: |
+    Kaiser, Johannes, Tamara Mueller, and Georgios Kaissis.  
+    "Differential privacy in medical imaging applications."  
+    Trustworthy AI in Medical Imaging. Academic Press, 2025. 411-424.
 ---
 This bookchapter delves into the application of Differential Privacy (DP) in
 the realm of medical imaging. It begins by outlining the challenges inherent

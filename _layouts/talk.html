@@ -11,7 +11,7 @@ layout: default
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
-  {% endif %}
+  {% endunless  %}
 {% endif %}
 
 <div id="main" role="main">
@@ -42,7 +42,7 @@ layout: default
           </div>
         {% endif %}
       </header>
-
+      {% endunless  %}
       {% if page.venue or page.location or page.date %}
         <div class="page__meta">
           {% if page.venue %}<p class="page__meta-item"><strong>Venue:</strong> {{ page.venue }}</p>{% endif %}

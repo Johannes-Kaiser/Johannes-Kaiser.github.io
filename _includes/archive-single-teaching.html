@@ -10,6 +10,11 @@
     <h3 style="margin-top:0;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h3>
+    {% if post.type %}
+      <div style="font-size:1em;color:#444;margin-bottom:0.5em;">
+        {{ post.type }}
+      </div>
+    {% endif %}
     <div>
       {{ post.excerpt | markdownify | strip_html | truncate: 180 }}
     </div>

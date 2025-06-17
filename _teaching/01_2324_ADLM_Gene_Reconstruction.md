@@ -1,7 +1,7 @@
 ---
 title: "Reconstruction attacks on Genetic Data"
 collection: teaching
-type: "Practical: Applied Deep Learning in Medicine"
+type: "WS23/24 Practical: Applied Deep Learning in Medicine"
 layout: teaching
 permalink: /teaching/ADLM_WS_23_24
 venue: "TUM"

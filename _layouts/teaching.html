@@ -30,11 +30,11 @@ layout: default
           <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
         {% endif %}
         {% if page.venue or page.location or page.date %}
-          <div class="page__meta">
+            <div class="page__meta">
             {% if page.venue %}<p class="page__meta-item"><strong>Venue:</strong> {{ page.venue }}</p>{% endif %}
             {% if page.location %}<p class="page__meta-item"><strong>Location:</strong> {{ page.location }}</p>{% endif %}
             {% if page.date %}<p class="page__meta-item"><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>{% endif %}
-          </div>
+            </div>
         {% endif %}
         {% if page.image and page.pdf %}
           <a href="{{ page.pdf }}" download>
@@ -50,6 +50,7 @@ layout: default
         {% endif %}
       </header>
       {% endunless  %}
+  
 
       <section class="page__content" itemprop="text">
         {{ content }}

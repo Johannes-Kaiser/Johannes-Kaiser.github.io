@@ -1,0 +1,21 @@
+<div class="teaching-list-item" style="display:flex;align-items:flex-start;margin-bottom:2em;">
+  {% if post.image %}
+    <div style="flex:0 0 150px;">
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.image }}" alt="Thumbnail for {{ post.title }}" style="max-width:140px;max-height:140px;border-radius:6px;">
+      </a>
+    </div>
+  {% endif %}
+  <div style="flex:1;margin-left:1.5em;">
+    <h3 style="margin-top:0;">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+    <div>
+      {{ post.excerpt | markdownify | strip_html | truncate: 180 }}
+    </div>
+    <div style="font-size:0.95em;color:#666;">
+      <strong>{{ post.venue }}</strong>, {{ post.location }}<br>
+      <em>{{ post.date | date: "%B %d, %Y" }}</em>
+    </div>
+  </div>
+</div>

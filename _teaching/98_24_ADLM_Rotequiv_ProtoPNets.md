@@ -5,7 +5,7 @@ type: "SS24 Practical: Applied Deep Learning in Medicine"
 layout: teaching
 permalink: /teaching/ADLM_SS_24
 venue: "TUM"
-date: 2024-04-01
+date: 2024-10-01
 location: "Munich, Germany"
 image: /images/Teaching/Thumbnail_Rotequiv.png   # path to slide/poster image
 pdf: /files/Teaching/Rotequiv.pdf    # path to PDF file

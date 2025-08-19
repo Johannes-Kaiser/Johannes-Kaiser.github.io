@@ -11,7 +11,7 @@ image: /images/Open_Projects/Thumbnail_MA_Multi_Persona.png   # path to slide/po
 pdf:     # path to PDF file
 ---
 
-
+<img src="/images/Open_Projects/Thumbnail_MA_Multi_Persona.png" width="70%">
 
 ## Project Background  
 Large language models (LLMs) are increasingly used in medical contexts, ranging from diagnostic assistance to patient communication. In clinical practice, many different types of documents are generated based on patient examinations and subsequent diagnoses. These include, but are not limited to:  

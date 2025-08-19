@@ -11,7 +11,7 @@ image: /images/Open_Projects/Thumbnail_MA_Discrete_Steering.png
 pdf:
 ---
 
-<img src="/images/Open_Projects/Thumbnail_MA_Discrete_Steering.png" width="70%">
+![Thumbnail](/images/Open_Projects/Thumbnail_MA_Discrete_Steering.png){: style="width:70%;" }
 
 ## Project Background  
 Diffusion models have recently emerged as a powerful paradigm for generative modeling, achieving state-of-the-art results in continuous domains such as images and audio. In the discrete domain, **language diffusion models** aim to generate coherent sequences of tokens through iterative denoising steps, offering a compelling alternative to autoregressive models.  

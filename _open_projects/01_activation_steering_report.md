@@ -1,3 +1,17 @@
+title: "Activation Steering for Robust Multi-Persona Report Generation"
+collection: open_projects
+type: "Master Thesis"
+layout: teaching
+permalink: /open_projects/ADLM_MA_MM
+venue: "TUM"
+date: 2025-08-19
+location: "Munich, Germany"
+image: /images/Teaching/Thumbnail_MA_MM.png   # path to slide/poster image
+pdf:     # path to PDF file
+---
+
+
+
 ## Project Background  
 Large language models (LLMs) are increasingly used in medical contexts, ranging from diagnostic assistance to patient communication. In clinical practice, many different types of documents are generated based on patient examinations and subsequent diagnoses. These include, but are not limited to:  
 

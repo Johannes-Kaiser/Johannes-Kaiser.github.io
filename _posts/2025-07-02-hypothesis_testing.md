@@ -6,7 +6,6 @@ tags:
   - DP
   - Hypothesis Testing
 ---
-# On the Hypothesis Testing Perspective of DP
 Differential privacy in essence tries to protect an adversary of distinguishing weather a datapoint was present in an the output of the randomized mechanism underlying data.
 Therefore it naturally alligns with an Hypothesis testing interpretation with given the outputs of the either $M(S)$ or $M(S')$:
     <p align="center">

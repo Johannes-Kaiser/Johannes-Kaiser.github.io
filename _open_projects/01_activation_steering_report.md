@@ -1,3 +1,4 @@
+---
 title: "Activation Steering for Robust Multi-Persona Report Generation"
 collection: open_projects
 type: "Master Thesis"
@@ -6,7 +7,7 @@ permalink: /open_projects/ADLM_MA_MM
 venue: "TUM"
 date: 2025-08-19
 location: "Munich, Germany"
-image: /images/Teaching/Thumbnail_MA_MM.png   # path to slide/poster image
+image: /images/Open_Projects/Thumbnail_MA_Multi_Persona.png   # path to slide/poster image
 pdf:     # path to PDF file
 ---
 

@@ -7,7 +7,7 @@ permalink: /open_projects/ADLM_MA_LD
 venue: "TUM"
 date: 2025-08-19
 location: "Munich, Germany"
-image: /images/Teaching/Thumbnail_MA_LD.png
+image: /images/Open_Projects/Thumbnail_MA_Discrete_Steering.png
 pdf:
 ---
 

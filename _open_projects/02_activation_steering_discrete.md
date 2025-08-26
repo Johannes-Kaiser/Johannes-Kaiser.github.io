@@ -14,7 +14,7 @@ pdf:
 ![Thumbnail](/images/Open_Projects/Thumbnail_MA_Discrete_Steering.png){: style="width:70%;" }
 
 ## Project Background  
-Diffusion models have recently emerged as a powerful paradigm for generative modeling, achieving state-of-the-art results in continuous domains such as images and audio. In the discrete domain, **language diffusion models** aim to generate coherent sequences of tokens through iterative denoising steps, offering a compelling alternative to autoregressive models.  
+Diffusion models have recently emerged as a powerful paradigm for generative modeling, achieving state-of-the-art results in continuous domains such as images and audio. In the discrete domain, **masked language diffusion models** aim to generate coherent sequences of tokens through iterative denoising steps, offering a compelling alternative to autoregressive models.  
 
 Despite their promise, discrete language diffusion models face several challenges:  
 
@@ -24,7 +24,7 @@ Despite their promise, discrete language diffusion models face several challenge
 
 **Activation steering**, which has shown success in transformers for controlling textual traits post-training, could provide a novel mechanism to guide discrete diffusion processes. By identifying directions in the model’s hidden activations corresponding to specific traits (e.g., formality, sentiment, or domain-specific style), it is possible to **modulate generated sequences without retraining the model**.  
 
-Applying activation steering to discrete language diffusion models could allow for **more controllable, coherent, and high-quality text generation**, making this a promising avenue for research.  
+Applying activation steering to discrete language diffusion models could allow for **more controllable, coherent, and high-quality text generation**, making this a promising avenue for research. Extending on the fine grained control: Applying activation steering to masked language diffusion models allows to steer only selected tokens allowing for a fine grained level of control not acchievable with decoder only LLMs.
 
 ## Your Tasks  
 - **Literature Review**: Survey discrete language diffusion methods, activation steering techniques, and related controllable generation approaches.  

@@ -1,5 +1,5 @@
 ---
-title: "Activation Steering for Discrete Language Diffusion Models"
+title: "Benchmarking Explainability and Interpretabiltiy Methods in Medical Imaging"
 collection: open_projects
 type: "Master Thesis"
 layout: teaching
